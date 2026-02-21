@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #111;
+  border-bottom: 2px solid gold;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: gold;
+}
+
+/* Hero Section */
+.hero {
+  height: 80vh;
+  background: linear-gradient(to right, #000, #1a1a1a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gold;
+}
+
+.hero h1 {
+  font-size: 50px;
+  color: gold;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background-color: #d4af37;
+}
+
+/* Sections */
+.section {
+  padding: 60px;
+  text-align: center;
+}
+
+.section h2 {
+  color: gold;
+  margin-bottom: 40px;
+}
+
+/* Product Cards */
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #111;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid gold;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px gold;
+}
+
+.image {
+  height: 150px;
+  background-color: #222;
+  margin-bottom: 15px;
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Special Boxes */
+.special-box,
+.deal-box {
+  padding: 40px;
+  background-color: #111;
+  border: 1px solid gold;
+  font-size: 20px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid gold;
+  background-color: #111;
+}
